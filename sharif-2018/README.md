@@ -1,7 +1,7 @@
-# Solutions to Sharif 8 CTF
+# Solutions to some Sharif 8 CTF challenges
 
-You can also check the [official size](http://ctf.certcc.ir/ctf8/),
-[CTFtime size](https://ctftime.org/event/507)
+You can also check the [official site](http://ctf.certcc.ir/ctf8/),
+[CTFtime site](https://ctftime.org/event/507)
 and additional [writeups](https://ctftime.org/event/507/tasks/).
 
 This repo contains the following solutions:
