@@ -73,7 +73,7 @@ open('priv.key', 'w').write(key.exportKey('PEM'))
 
 Adding the generated [private key](priv.key) to Wireshark we can now decipher the session and update the client:
 
-```
+```python
 from socket import *
 from ssl import *
 import time
