@@ -1,6 +1,6 @@
 # yasc (RE 300)
 
-The task only provides a (binary file)[yasc]. 
+The task only provides a [binary file](yasc).
 
 If we analyze or run it, we can see that it reads a input string
 and it validates that the input string is the expected one.
