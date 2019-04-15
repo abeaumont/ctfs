@@ -6,4 +6,5 @@ and additional [writeups](https://ctftime.org/event/743/tasks/).
 
 This repo contains the following solutions:
 
-* [Horst](horst) (Crypto 200)
+* [docker](docker/README.md) (Misc 10)
+* [Horst](horst/README.md) (Crypto 200)
