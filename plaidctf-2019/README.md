@@ -8,3 +8,4 @@ This repo contains the following solutions:
 
 * [docker](docker/README.md) (Misc 10)
 * [Horst](horst/README.md) (Crypto 200)
+* [Project Eulernt](eulernt/README.md) (Misc 200)
