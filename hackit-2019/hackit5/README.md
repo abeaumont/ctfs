@@ -113,20 +113,20 @@ In order to reverse the functions, the approach we followed is:
   to verify that both provide the same output given the same input.
   That is, to verify that we have reversed the code correctly.
 - Write such function with the logic inverted in C.
-- Run the C program calling the first the function we have reversed and then the inverted function
+- Run the C program calling the first function we have reversed and then the inverted function
   and validate that the output of the program matches the input.
   That is, both the direct and invert functions work and their composition is the identity function.
 - Repeat the whole process for all the functions.
 - Put both the direct and reverse block in a loop of 31337 and check that it works.
   This should validate that the usage of the loop index argument in the functions is correctly reversed.
   
-Once everything above works, we have reversed the whole program and we have it's invert,
+Once everything above works, we have reversed the whole program and we have its invert,
 so we just swich the order of things:
 - Use the expected output as input.
 - Call the loop in reverse order.
 - In every loop interation, we call all the functions in reverse order.
 - The output of the program is the password.
-- Additionally, we can call the direct code to validate tha the end result matches the expected output.
+- Additionally, we can call the direct code to validate that the end result matches the expected output.
 
 Once this is done, we get the password :)
 

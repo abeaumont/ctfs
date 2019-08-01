@@ -50,15 +50,15 @@ even for uncompressed data), we saw that only a reduced subset of the packet typ
   - chunk_data
   - unload_chunk
 
-So, basically, client to server communication consists in information about the player and
-server to client communication consists in information about the map.
+So, basically, client to server communication consists of information about the player and
+server to client communication consists of information about the map.
 
 We initially thought the flag could be in the map, so we reversed the server to client communication first.  
 After dealing with the chunk format, analyzing their bitmasks, palettes, positions, lights and biomes we realized
 there was no simple way to get the flag from there, so we switched to look at the client messages.
 
 After decoding client messages, the position of the player seemed like the most relevant information.
-It consists in the 3D coordinates (`X`, `Y`, `Z`, with `Y` being the height)
+It consists of the 3D coordinates (`X`, `Y`, `Z`, with `Y` being the height)
 and a boolean flag indicating whether the player is in the ground.
 
 We saw how the position of the player was continously changing,
@@ -74,6 +74,6 @@ We used `pygame` to draw it, resulting in the following image:
 
 ![flag](flag.png)
 
-As can be seen there, the flag is `BLoCkD3f1nEdPr0tOcoL`.
+As it can be seen there, the flag is `BLoCkD3f1nEdPr0tOcoL`.
 
 The code we used to get the flag is available at [hackit3.py](hackit3.py).
